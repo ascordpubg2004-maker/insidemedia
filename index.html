@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSIDE MEDIA</title>
+<title>INSIDE MEDIA</title>
 
-    <meta name="description" content="Самые обсуждаемые новости блогеров, стримеров и интернета">
+<meta name="description" content="Самые обсуждаемые новости блогеров, стримеров и интернета">
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png">
 
-    <link rel="icon" href="favicon.png">
 </head>
 
 <body>
@@ -28,34 +28,33 @@
 <h1>INSIDE MEDIA</h1>
 
 <p class="subtitle">
-
 Самые обсуждаемые новости<br>
 блогеров, стримеров<br>
 и всего интернета.
-
 </p>
 
 <div class="live">
-
 <span class="dot"></span>
-
 LIVE • Новости обновляются ежедневно
-
 </div>
 
 <a class="button"
 href="https://t.me/ins1demedia"
 target="_blank">
-
-📲 Открыть Telegram
-
+📲 Перейти в Telegram
 </a>
 
-<p class="auto">
+<button class="button secondary" onclick="showHelp()">
+🌐 Не открывается из TikTok?
+</button>
 
-Автоматический переход через
-<span id="timer">2</span> сек.
-
+<p id="helpText" class="hint" style="display:none;">
+Если вы открыли страницу внутри TikTok на iPhone,
+нажмите <b>⋯</b> в правом верхнем углу →
+<b>Открыть в браузере</b>.
+<br><br>
+После этого снова нажмите
+<b>«Перейти в Telegram»</b>.
 </p>
 
 </main>
